@@ -14,21 +14,29 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: 'black',
         height: 200,
+        flexDirection: 'row',
+        justifyContent: 'space-between'
     },
     textOneStyle: {
         borderWidth: 3,
-        borderColor: 'red',
-        flex: 4
+        backgroundColor: 'red',
+        height: 100,
+        width: 100
     },
     textTwoStyle: {
         borderWidth: 3,
-        borderColor: 'red',
-        flex: 4
+        backgroundColor: 'green',
+        height: 100,
+        width: 100,
+        position: 'absolute',
+        top: 90,
+        left: 130
     },
     textThreeStyle: {
         borderWidth: 3,
-        borderColor: 'red',
-        flex: 2
+        backgroundColor: 'purple',
+        height: 100,
+        width: 100
     }
 });
 
